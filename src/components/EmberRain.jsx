@@ -1,0 +1,1 @@
+export default function EmberRain(){return <div className="ember-rain" aria-hidden="true">{Array.from({length:28},(_,i)=><i key={i} style={{'--x':`${i*17%100}%`,'--delay':`${i%9*-.75}s`,'--duration':`${8+i%7}s`,'--size':`${2+i%3}px`}}/>)}</div>}
